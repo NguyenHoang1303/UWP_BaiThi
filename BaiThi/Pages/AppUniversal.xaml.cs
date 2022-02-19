@@ -25,6 +25,33 @@ namespace BaiThi.Pages
         public AppUniversal()
         {
             this.InitializeComponent();
+            contentFrame.Navigate(typeof(Pages.List.Index));
+        }
+
+        private void Contac_Loaded(object sender, RoutedEventArgs e)
+        {
+            contentFrame.Navigate(typeof(Pages.List.Index));
+        }
+
+        private void Contact_SelectionChanged(NavigationView sender, NavigationViewSelectionChangedEventArgs args)
+        {
+            if (args.IsSettingsSelected)
+            {
+                //contentFrame.Navigate(typeof(SampleSettingsPage));
+            }
+            else
+            {
+                var selectedItem = args.SelectedItem as NavigationViewItem;
+                switch (selectedItem.Tag.ToString())
+                {
+                    case "List":
+                        contentFrame.Navigate(typeof(Pages.List.Index));
+                        break;
+                    case "Form":
+                        contentFrame.Navigate(typeof(Pages.Form.Index));
+                        break;
+                }
+            }
         }
     }
 }

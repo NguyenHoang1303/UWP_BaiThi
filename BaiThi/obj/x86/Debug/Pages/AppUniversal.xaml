@@ -8,8 +8,12 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-
-    </Grid>
+    <NavigationView x:ConnectionId='2' x:Name="Contact" IsPaneOpen="False"                                                                    >
+        <NavigationView.MenuItems>
+            <NavigationViewItem Icon="Play" Content="Create Contact" Tag="Form" />
+            <NavigationViewItem Icon="Save" Content="List Contact" Tag="List" />
+        </NavigationView.MenuItems>
+        <Frame x:ConnectionId='3' x:Name="contentFrame"/>
+    </NavigationView>
 </Page>
 

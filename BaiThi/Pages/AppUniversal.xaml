@@ -8,7 +8,11 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-
-    </Grid>
+    <NavigationView x:Name="Contact" IsPaneOpen="False"  Loaded="Contac_Loaded" SelectionChanged="Contact_SelectionChanged">
+        <NavigationView.MenuItems>
+            <NavigationViewItem Icon="Play" Content="Create Contact" Tag="Form" />
+            <NavigationViewItem Icon="Save" Content="List Contact" Tag="List" />
+        </NavigationView.MenuItems>
+        <Frame x:Name="contentFrame"/>
+    </NavigationView>
 </Page>

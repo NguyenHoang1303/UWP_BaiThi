@@ -12,4 +12,6 @@ App.xbf
 BaiThi.xr.xml
 MainPage.xbf
 Pages\AppUniversal.xbf
+Pages\Form\Index.xbf
+Pages\List\Index.xbf
 Properties\Default.rd.xml

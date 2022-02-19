@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\LaptopAZ.vn\source\repos\BaiThi\BaiThi\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>B4226A3430429E3A0ABA6060C24AF2B39C8CE81CFCF4D5055364673FA47CC815</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>A727B072F97943CC541238C35EC9671452C204CD06A669D8BCE7D0FFB78BE1DC</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>da5b4acb-b49a-417d-ba2f-c28ed04362fb_1.0.0.0_x86__9bmxhb7zwesw4</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>da5b4acb-b49a-417d-ba2f-c28ed04362fb_9bmxhb7zwesw4!App</RegisteredUserModeAppID>
     <RegisteredPackageID>da5b4acb-b49a-417d-ba2f-c28ed04362fb</RegisteredPackageID>
@@ -30,13 +30,17 @@
     <AppXManifest Include="C:\Users\LaptopAZ.vn\source\repos\BaiThi\BaiThi\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-19T11:51:52.651</Modified>
+      <Modified>2022-02-19T13:01:10.295</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\LaptopAZ.vn\source\repos\BaiThi\BaiThi\bin\x86\Debug\BaiThi.exe">
       <PackagePath>entrypoint\BaiThi.exe</PackagePath>
-      <Modified>2022-02-19T11:51:49.467</Modified>
+      <Modified>2022-02-19T13:01:09.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LaptopAZ.vn\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\7.1.2\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll</PackagePath>
+      <Modified>2021-11-18T22:29:32.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -57,6 +61,10 @@
     <AppxPackagedFile Include="C:\Users\LaptopAZ.vn\.nuget\packages\sqlitepcl\3.8.7.2\build\netcore451\SQLitePCL.Ext.dll">
       <PackagePath>SQLitePCL.Ext.dll</PackagePath>
       <Modified>2014-12-09T11:04:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LaptopAZ.vn\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\7.1.2\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml</PackagePath>
+      <Modified>2021-11-18T21:54:12.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\LaptopAZ.vn\source\repos\BaiThi\BaiThi\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -98,19 +106,31 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\LaptopAZ.vn\source\repos\BaiThi\BaiThi\bin\x86\Debug\BaiThi.xr.xml">
       <PackagePath>BaiThi.xr.xml</PackagePath>
-      <Modified>2022-02-19T11:51:49.284</Modified>
+      <Modified>2022-02-19T12:54:36.169</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\LaptopAZ.vn\source\repos\BaiThi\BaiThi\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-02-19T11:51:49.325</Modified>
+      <Modified>2022-02-19T13:01:08.999</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\LaptopAZ.vn\source\repos\BaiThi\BaiThi\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-02-19T11:51:49.326</Modified>
+      <Modified>2022-02-19T13:01:09.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\LaptopAZ.vn\source\repos\BaiThi\BaiThi\bin\x86\Debug\Pages\AppUniversal.xbf">
       <PackagePath>Pages\AppUniversal.xbf</PackagePath>
-      <Modified>2022-02-19T11:51:49.326</Modified>
+      <Modified>2022-02-19T13:01:09.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LaptopAZ.vn\source\repos\BaiThi\BaiThi\bin\x86\Debug\Pages\Form\Index.xbf">
+      <PackagePath>Pages\Form\Index.xbf</PackagePath>
+      <Modified>2022-02-19T13:01:09.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LaptopAZ.vn\source\repos\BaiThi\BaiThi\bin\x86\Debug\Pages\List\Index.xbf">
+      <PackagePath>Pages\List\Index.xbf</PackagePath>
+      <Modified>2022-02-19T13:01:09.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
+      <PackagePath>ucrtbased.dll</PackagePath>
+      <Modified>2020-12-01T21:59:30.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -118,14 +138,63 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\LaptopAZ.vn\source\repos\BaiThi\BaiThi\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-02-19T11:51:50.235</Modified>
+      <Modified>2022-02-19T12:46:55.626</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\LaptopAZ.vn\source\repos\BaiThi\BaiThi\bin\x86\Debug\Core\BaiThi.exe">
       <PackagePath>BaiThi.exe</PackagePath>
-      <Modified>2022-02-19T11:51:52.641</Modified>
+      <Modified>2022-02-19T13:01:10.291</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LaptopAZ.vn\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
+      <PackagePath>Microsoft.UI.Xaml.winmd</PackagePath>
+      <Modified>2021-09-14T09:06:08.000</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\LaptopAZ.vn\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.7.appx">
+      <Name>Microsoft.UI.Xaml.2.7</Name>
+      <Version>7.2109.13004.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.7, MinVersion = 7.2109.13004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\LaptopAZ.vn\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\LaptopAZ.vn\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.7.appx">
+      <Name>Microsoft.UI.Xaml.2.7</Name>
+      <Version>7.2109.13004.0</Version>
+      <Architecture>Win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.7, MinVersion = 7.2109.13004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\LaptopAZ.vn\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\LaptopAZ.vn\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.7.appx">
+      <Name>Microsoft.UI.Xaml.2.7</Name>
+      <Version>7.2109.13004.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.7, MinVersion = 7.2109.13004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\LaptopAZ.vn\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\LaptopAZ.vn\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.7.appx">
+      <Name>Microsoft.UI.Xaml.2.7</Name>
+      <Version>7.2109.13004.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.7, MinVersion = 7.2109.13004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\LaptopAZ.vn\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\LaptopAZ.vn\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.7.appx">
+      <Name>Microsoft.UI.Xaml.2.7</Name>
+      <Version>7.2109.13004.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.7, MinVersion = 7.2109.13004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\LaptopAZ.vn\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.29713.2</Version>
